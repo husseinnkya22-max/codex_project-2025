@@ -1,7 +1,7 @@
 import psycopg2
 
 
-DATABASE_URL='postgresql://postgres.lsavzbrwibgkiuelytmx:Husseinmartinnkya@aws-1-eu-north-1.pooler.supabase.com:5432/postgres'
+DATABASE_URL='xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 
 
 
@@ -22,3 +22,4 @@ print(rows)
 cur.close()
 conn.commit()
 conn.close()
+
