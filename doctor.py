@@ -6,7 +6,7 @@ import os
 
 DATABASE_URL = os.getenv(
     "DATABASE_URL",
-    "postgresql://postgres.wegsxzwhrdhqsvkuqweg:codexhusseinmartinnkya@aws-1-eu-central-1.pooler.supabase.com:5432/postgres",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
 )
 
 st.header('DOCTOR SHEET')
@@ -331,4 +331,5 @@ if st.session_state.active_page=='to_pharmacy':
 
 
 else:
+
    st.info('👈 SELECT FROM THE SIDEBAR MENU')  
